@@ -1,16 +1,21 @@
-
 .header {
     padding: 28px 48px 56px;
     display: flex;
     justify-content: space-between;
 }
+
 .header__lang-links {
     list-style-type: none;
     display: flex;
     gap: 18px;
+
 }
 
 .header__lang-link {
     color: #ffffff;
     text-decoration: none;
+}
+
+.header__lang-link:first-child {
+    text-decoration-line: underline;
 }
