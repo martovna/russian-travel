@@ -1,11 +1,11 @@
 @import url(./font.css);
-@import url(./container.css);
 @import url(./header.css);
 @import url(./lead.css);
 @import url(./intro.css);
 @import url(./place.css);
 @import url(./cover.css);
 @import url(./footer.css);
+@import url(./photo-grid.css);
 
 body {
     min-width: 320px;
