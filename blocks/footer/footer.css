@@ -17,3 +17,10 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer{
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

@@ -3,10 +3,11 @@
     padding-left: 16px;
     padding-right: 16px;
     margin-bottom: 40px;
+
 }
 
 @media screen and (min-width: 768px) {
-    .lead__container {
+    .lead__container{
         padding-left: 24px;
         padding-right: 24px;
         margin-bottom: 56px;
@@ -24,7 +25,6 @@
     .lead__container {
         padding-left: 148px;
         padding-right: 148px;
-        padding-bottom: 64px;
+        margin-bottom:64px;
     }
-
 }

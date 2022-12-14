@@ -3,8 +3,15 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    padding-bottom: 32px;
 }
 
 .place__link:hover {
     opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .place__link {
+        padding-bottom: 0;
+    }
 }

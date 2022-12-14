@@ -1,5 +1,6 @@
 .cover {
     position: relative;
+
 }
 
 .cover::after {
@@ -14,7 +15,13 @@
     transition: opacity ease .3s;
 }
 
-.cover:hover::after{
-    opacity:.8;
+.cover:hover::after {
+    opacity: .8;
 }
 
+@media screen and (min-width: 1024px) {
+    .cover {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
