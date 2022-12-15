@@ -1,14 +1,13 @@
 .header {
-    padding: 28px 48px 56px;
+    padding:16px 16px 48px 16px;
     display: flex;
     justify-content: space-between;
-    padding-left: 16px;
+   
 }
 
 @media screen and (min-width: 768px) {
     .header {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding:28px 24px 48px 24px;
     }
 }
 
