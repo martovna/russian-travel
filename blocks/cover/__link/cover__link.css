@@ -1,6 +1,6 @@
 .cover__link {
     max-width: 1024px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     background-image: url('../../../images/cover-trains.jpg');
     background-position: center center;
     background-size: cover;
@@ -12,25 +12,26 @@
     text-decoration: none;
     padding: 33px 16px;
     color: #ffffff;
-    width:100%;
 
 }
 
 @media screen and (min-width: 768px) {
     .cover__link {
         padding: 115px 104px;
-        width:initial;
+        width: initial;
     }
 }
 
 @media screen and (min-width:1024px) {
     .cover__link {
         padding: 195px 232px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .cover__link {
         padding: 245px 312px;
+        max-width: 1280px;
     }
 }
